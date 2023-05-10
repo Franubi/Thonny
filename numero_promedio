@@ -1,0 +1,11 @@
+def promedio(num_1,num_2,num_3):
+    promedio_ = (num_1 + num_2 + num_3)/3
+    return promedio_
+print(promedio(4,9,8))
+
+num1 = int(input("Dime un número:"))
+num2 = int(input("Dime otro número:"))
+num3 = int(input("Dime otro número:"))
+
+print("El promedip de " + str(num1) + ", " + str(num2) +", " + str(num3) + "es:")
+print(promedio(num1,num2,num3))
